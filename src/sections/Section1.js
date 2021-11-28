@@ -26,13 +26,6 @@ const styles = {
 
 
 
-
-
-
-
-
-
-
 function Section1() {
     return (
         <div style={styles.textArea}>
