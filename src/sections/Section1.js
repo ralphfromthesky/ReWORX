@@ -16,8 +16,8 @@ const styles = {
         borderRadius: '20px',
         color: 'white',
         position: 'absolute',
-        top: '80%',
-        left: '40%',
+        top: '110%',
+        left: '100%',
         borderColor: 'silver',
 
     }
@@ -35,12 +35,11 @@ const styles = {
 
 function Section1() {
     return (
-        <div>
-            <div style={styles.textArea}>
+        <div style={styles.textArea}>
                 <h1>Strategic</h1>
                 <h1>Outsourcing,</h1>
                 <h1>ReWORXed.</h1>
-            </div>
+            
             <input type="button" value="Outsource with us ▼" style={styles.button}></input>
         </div>
     )

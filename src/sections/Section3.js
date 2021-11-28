@@ -2,13 +2,14 @@ import React from 'react';
 
 const styles = {
     textArea: {
-        color: '#606462',
-        fontSize: '20px',
         position: 'relative',
-        display: 'flex',
-        float: 'left',
-        
-        
+        color: '#606462',
+        fontSize: '15px',
+        textShadow: '2px 2px 4px white',
+        textAlign: 'left'
+    
+    
+
 
     }
 }
@@ -17,12 +18,13 @@ const styles = {
 
 function Section3() {
     return (
-        <div className="section">
-            <h1 style={styles.textArea}><i>"When the workload is too much,
-                you'll need some effective back up. That's where ReWORX comes in."</i>
-            </h1>
-
-        </div>
+        <div>
+            <div className="section" style={styles.textArea}>
+                <h1><i>"When the workload is too much,
+                    you'll need some effective back up. That's where ReWORX comes in."</i>
+                </h1>
+            </div>
+        </div >
     )
 }
 
