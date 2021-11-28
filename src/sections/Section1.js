@@ -44,7 +44,7 @@ function Section1() {
                 <h1>Outsourcing,</h1>
                 <h1>ReWORXed.</h1>
             </div>
-            <input type="button" value="Outsource with us" style={styles.button}></input>
+            <input type="button" value="Outsource with us ▼" style={styles.button}></input>
         </div>
     )
 }
