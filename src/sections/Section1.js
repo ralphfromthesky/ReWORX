@@ -1,7 +1,4 @@
-import { Button } from '@mui/material';
 import React from 'react';
-import { Typography } from '@mui/material';
-import { makeStyles } from '@mui/material';
 
 
 const styles = {
@@ -14,7 +11,7 @@ const styles = {
     },
     button: {
         padding: '5px', 
-        backgroundColor: 'green',
+        backgroundColor: '#178260',
         fontSize: '20px',
         borderRadius: '20px',
         color: 'white',
