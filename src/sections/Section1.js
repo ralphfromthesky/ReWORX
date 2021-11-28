@@ -28,13 +28,18 @@ const styles = {
 
 function Section1() {
     return (
-        <div style={styles.textArea}>
-                <h1>Strategic</h1>
-                <h1>Outsourcing,</h1>
-                <h1>ReWORXed.</h1>
-            
+        <><div style={styles.textArea}>
+            <h1>Strategic</h1>
+            <h1>Outsourcing,</h1>
+            <h1>ReWORXed.</h1>
+
             <input type="button" value="Outsource with us ▼" style={styles.button}></input>
-        </div>
+        </div><div className="section-1">
+                <div>
+                    <h1>ReWORX</h1>
+                    <p>Strategic Outsourcing, ReWORXed.</p>
+                </div>
+            </div></>
     )
 }
 
