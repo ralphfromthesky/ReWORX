@@ -36,6 +36,7 @@ const styles = {
 function Section3() {
     return (
         <div id="section-3" className="section section-3">
+<<<<<<< HEAD
 
             <h1 style={styles.textArea}><i>"When the workload is too much,
                 you'll need some effective back up. That's where ReWORX comes in."</i>
@@ -45,6 +46,14 @@ function Section3() {
 
         
             
+=======
+            <div>
+                <h1></h1>
+            </div>
+            <div>
+                <p></p>
+            </div>
+>>>>>>> 545a414a62822b80131985118d7ccfb60ec08fc6
         </div>
     )
 }
