@@ -2,35 +2,31 @@ import React from 'react';
 
 const styles = {
     textArea: {
-        position: 'absolute',
+       
         display: 'flex',
         color: '#606462',
         fontSize: '40px',
         textShadow: '2px 2px 4px white',
         width: '65%',
         padding: '20px',
-        top: '130%',
-        left: '15%'
+       
     },
 
     textArea2: {
-        position: 'absolute',
+      
         fontSize: '22px',
         color: '#178260',
         textShadow: '1px 1px 2px white',
-        top: '170%',
-        left: '42%'
+       
         
     },
 
     textArea3: {
-        position: 'absolute',
+       
         textShadow: '1px 1px 2px white',
         color: '606462',
         fontSize: '17px',
-        left: '70%',
-        top: '175%',
-
+       
 
     }
 }

@@ -7,10 +7,10 @@ const styles = {
         fontSize: '27px',
         position: 'absolute',
         top: '20%',
-        left: '10%',
+        left: '10%'
     },
     button: {
-        padding: '5px', 
+        padding: '5px',
         backgroundColor: '#178260',
         fontSize: '20px',
         borderRadius: '20px',
@@ -32,9 +32,9 @@ function Section1() {
             <h1>Strategic</h1>
             <h1>Outsourcing,</h1>
             <h1>ReWORXed.</h1>
-
             <input type="button" value="Outsource with us ▼" style={styles.button}></input>
-        </div><div className="section-1">
+        </div>
+            <div className="section-1">
                 <div>
                     <h1>ReWORX</h1>
                     <p>Strategic Outsourcing, ReWORXed.</p>
